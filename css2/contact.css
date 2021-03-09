@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body, html{
+height: 80%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-image: url("../imag2/Free\ Image\ on\ Pixabay\ -\ Texture\,\ Chalkboard\,\ Vintage.jpg");
+  background-repeat: no-repeat;
+background-size: cover
+}
+
+
+img{
+  visibility: visible;
+  height: 800px;
+  z-index: 2;
+  border-radius: 8px;
+  margin-left: 50%;
+  filter:grayscale();
+  
+}
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: aliceblue;
+}
+a{
+text-decoration: none;
+color: azure;
+font-size: 20px;
+
+}
+a:hover{
+  color:green;
+}
+p{
+  color: aliceblue;
+  font-weight: bold;
+
+}
